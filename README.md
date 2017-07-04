@@ -10,7 +10,7 @@ jobs in GitLab CI, hence the name.
 
 While running a container (interactively), you can add a private key as follows:
 ```
-$ ssh-addkey "${SSH_PRIVATE_KEY}""
+$ ssh-addkey "${SSH_PRIVATE_KEY}"
 ```
-where the `SSH_PRIVATE_KEY` variable contains your private key. This key is then
-added to all hosts.
+where the `SSH_PRIVATE_KEY` variable contains your private key. You can then
+either ssh, rsync, or use git to sync to your favorite deploy server.
