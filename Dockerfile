@@ -7,7 +7,6 @@ LABEL description="Easily add private SSH keys during your GitLab CI jobs"
 RUN apk --no-cache add \
 	openssh-client \
 	rsync \
-	scp \
 	git
 
 RUN mkdir -p ~/.ssh
