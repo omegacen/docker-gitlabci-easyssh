@@ -6,6 +6,8 @@ This Docker image reduces the hassle of adding a private SSH key to running
 Docker containers to one command. This is particularly useful for deploy 
 jobs in GitLab CI, hence the name.
 
+Superseded by https://gitlab.astro-wise.org/omegacen/ci-templates/-/tree/master/dockerfiles/ci-tools.
+
 ## Usage
 
 While running a container (interactively), you can add a private key as follows:
